@@ -51,38 +51,31 @@ function PricingSection(props) {
   const plans = [
     {
       id: "starter",
-      name: "Starter",
-      price: "10",
+      name: "Free",
+      price: "0",
       perks: [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Integer molestie lorem at massa",
+        "Create alterations for 1 location",
+        "Assign them to 1 tailor",
+        "Keep track of the progress",
       ],
     },
     {
       id: "pro",
       name: "Pro",
-      price: "20",
+      price: "9,99",
       perks: [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Integer molestie lorem at massa",
-        "Faucibus porta lacus fringilla vel",
-        "Aenean sit amet erat nunc",
+        "Unlimited locations",
+        "Unlimited tailors",
+        "+ Perks in the free plan"
       ],
     },
     {
       id: "business",
       name: "Business",
-      price: "50",
+      price: "-",
       perks: [
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Integer molestie lorem at massa",
-        "Faucibus porta lacus fringilla vel",
-        "Aenean sit amet erat nunc",
-        "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
+        "Custom made features",
+        "+ Perks in the Pro plan",
       ],
     },
   ];

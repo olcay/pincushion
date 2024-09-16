@@ -16,6 +16,10 @@ function PurchasePage(props) {
       // If user already has an active plan
       // then take them to Stripe billing
       router.push("/settings/billing");
+    } else if (router.query.plan === 'starter') {
+      router.push("/dashboard");
+    } else if (router.query.plan === 'business') {
+      router.push("/contact");
     } else {
       // Otherwise go to checkout
       redirectToCheckout(router.query.plan).catch((error) => {

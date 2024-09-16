@@ -15,10 +15,10 @@ function IndexPage(props) {
       <HeroSection
         bgColor="primary"
         size="large"
-        bgImage="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=1600&h=800&q=80"
+        bgImage="pincushion.jpg"
         bgImageOpacity={0.3}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
+        title="Seamless Alterations, No Strings Attached!"
+        subtitle="An intuitive tool for tailors to manage and track alterations effortlessly, ensuring accuracy and efficiency for every project."
         buttonText="Get Started"
         buttonColor="default"
         buttonPath="/pricing"
