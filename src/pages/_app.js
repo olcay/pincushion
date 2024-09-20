@@ -75,8 +75,8 @@ function App(props) {
                 bgImageOpacity={1}
                 description="Seamless Alterations, No Strings Attached!"
                 copyright={`© ${new Date().getFullYear()} Pincushion`}
-                logo="https://uploads.divjoy.com/logo.svg"
-                logoInverted="https://uploads.divjoy.com/logo-white.svg"
+                logo="logo.png"
+                logoInverted="logo-inverted.png"
                 sticky={true}
               />
             </>

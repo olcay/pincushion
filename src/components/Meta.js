@@ -9,9 +9,9 @@ function Meta(props) {
   // Meta values that are the same across all pages
   const globalMeta = {
     // Site name
-    siteName: "My App",
+    siteName: "Pincushion App",
     // Your production domain (example: https://myapp.com)
-    domain: "",
+    domain: "https://pincushion.app",
     // Your Twitter handle (example: @divjoy)
     twitterHandle: "",
   };
@@ -19,9 +19,9 @@ function Meta(props) {
   // Default meta values for current page (override with props)
   const defaultPageMeta = {
     // Page title
-    title: "My App",
+    title: "Pincushion App",
     // Page description
-    description: "My app description",
+    description: "Seamless Alterations, No Strings Attached!",
     // Social share image (create this file in /public/images/)
     image: "/images/social.png",
     // Page type (see https://ogp.me/#types)
